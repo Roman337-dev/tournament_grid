@@ -1,0 +1,126 @@
+
+#participants-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#participant-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+
+    padding: 5px 0;
+}
+#participant-container .name {
+    font-weight: bold;
+  
+    background-color: rgb(220, 125, 0);
+    
+    
+     padding: 6px;
+    
+    border: 1px solid black;
+   
+    
+}   
+#participant-container .id{
+margin-left: 5px;
+
+}
+#container{
+display: flex;
+flex-direction: row;
+
+font-size: 12px;
+}
+#container1,
+#container2,
+#container3,
+#container4,
+#container5,
+#container6,
+#container7,
+#container8,
+#container9,
+#container10{
+margin-right: 10%;
+font-size: 12px;
+}
+#container2>li>#participant-container{
+margin-top: 70px;
+margin-bottom: 70px;
+}
+#container3>li>#participant-container{
+margin-top: 160px;
+margin-bottom: 160px;
+}
+#container4>li>#participant-container{
+margin-top: 300px;
+margin-bottom: 300px;
+}
+#container5>li>#participant-container{
+margin-top: 440px;
+margin-bottom: 440px;
+}
+#container6>li>#participant-container{
+margin-top: 580px;
+margin-bottom: 580px;
+}
+#container7>li>#participant-container{
+margin-top: 720px;
+margin-bottom: 720px;
+}
+#container8>li>#participant-container{
+margin-top: 860px;
+margin-bottom: 860px;
+}
+#container9>li>#participant-container{
+margin-top: 1000px;
+margin-bottom: 1000px;
+}
+#container10>li>#participant-container{
+margin-top: 1140px;
+margin-bottom: 1140px;
+}
+#row{
+display: flex;
+flex-direction: row;
+border: 1px solid black;
+justify-content: space-between;
+border-radius: 10px;
+height: 45px;
+
+}
+#participant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#h1{
+color:#800080;
+}
+a{ text-decoration: none;
+color:#800080}
+button {
+background-color: #FFFFFF;
+color: #800080;
+border: none;
+padding: 10px 20px;
+margin-left: 10px;
+border-radius: 15px;
+}
+
+/* input[type=number] {
+    
+    width: 15px;
+    background-color: coral;
+} */

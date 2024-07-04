@@ -1,0 +1,126 @@
+body {
+    background-color: #000000;
+    color: #800080;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #800080;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#user-actions button {
+    background-color: #FFFFFF;
+    color: #800080;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+button {
+    background-color: #FFFFFF;
+    color: #800080;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+#participants-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        /* Стили для отдельного участника */
+#participant-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border: 1px solid #1b1b1b;
+            border-radius: 10px;
+            padding: 10px 0;
+            margin-top: 10px;
+            
+        }
+         a{ text-decoration: none;
+        color:#800080}
+#participant-container .name {
+            font-weight: bold;
+            margin-right: 10px;
+            
+        }   
+        #participant-container .id {
+            font-weight: bold;
+            margin-left: 10px;
+        } 
+#participant img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        #logo{
+    width: 250px;
+    height: 125px;
+}
+
+#h1{
+    color: whitesmoke;
+}
+
+/* fill res
+#participants-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#participant-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #800080;
+}
+#participant-container .name {
+    font-weight: bold;
+}   
+#participant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#h1{
+color: whitesmoke;
+color:#800080;
+} */
